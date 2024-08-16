@@ -14,6 +14,4 @@ O usuário pode escolher uma imagem ou ligar a webcam para detectar a cor escolh
 - OpenCV
 ---
 ### Script em execução
-<video width="500" height="240" controls>
-  <source src="demo/demo_.mp4" type="video/mp4">
-</video>
+![teste](demo/demo.gif)
