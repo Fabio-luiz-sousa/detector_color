@@ -33,10 +33,10 @@ def detect_color(src,number_color:str):
 
     
         if color_hsv[0][0][0] > 0:
-            lw_limmit = color_hsv[0][0][0] - 10,150,100
+            lw_limmit = color_hsv[0][0][0] - 10,150,150
             up_limmit = color_hsv[0][0][0] + 10,255,255
         else:
-            lw_limmit = color_hsv[0][0][0] + 0,150,100
+            lw_limmit = color_hsv[0][0][0] + 0,150,150
             up_limmit = color_hsv[0][0][0] + 10,255,255
 
         lw_limmit = np.array(lw_limmit,dtype=np.uint8)
